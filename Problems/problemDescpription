@@ -1,0 +1,24 @@
+Find Nearest Minimum number in left side in O(n)
+May 15, 2016 by Dhaval Dave
+
+Given an array of integers, find the nearest smaller number for every element such that the smaller element is on left side.
+
+Examples:
+
+Input:  arr[] = {1, 6, 4, 10, 2, 5}
+Output:         {-1, 1, 1, 4, 1, 2}
+First element ('1') has no element on left side. For 6, 
+there is only one smaller element on left side '1'. 
+For 10, there are three smaller elements on left side (1,
+6 and 4), nearest among the three elements is 4.
+
+Input: arr[] = {1, 3, 0, 2, 5}
+Output:        {-1,1,-1, 0, 2}
+
+Expected time complexity is O(n).
+
+To find Minimum number Left side of array , we can try above mentioned code.
+Instead Array , similar approach we can think for Linked Lists as well.
+
+Time Complexity : O(n)
+Space Complexity : O(n)
